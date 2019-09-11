@@ -19,8 +19,8 @@
             </div>
             <div>
                 <div class="container-social-footer">
-                    <a href=""><img src="img/icon/facebook2.png" alt="">meuhelp</a>
-                    <a href=""><img src="img/icon/instagram2.png" alt="">@meuhelp_ja</a>
+                    <a target="_blank" href="https://www.facebook.com/meuhelp/"><img src="img/icon/facebook2.png" alt="">meuhelp</a>
+                    <a target="_blank" href="https://www.instagram.com/meuhelp_ja/"><img src="img/icon/instagram2.png" alt="">@meuhelp_ja</a>
                     <span>Em breve:</span>
                     <a href=""><img src="img/icon/googleplay.png" alt=""></a>
                     <a href=""><img src="img/icon/appstore.png" alt=""></a>

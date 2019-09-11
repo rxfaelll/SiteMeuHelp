@@ -192,3 +192,43 @@
 
     margin-bottom: 1em;
 }
+
+/* Slider Parceiros */
+
+#sliderParceiros{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#sliderParceiros div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    outline: none;
+}
+
+.slick-arrow{
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    color: rgba(0, 0, 0, 0);
+    outline: none;
+
+    cursor: pointer;
+}
+
+.slick-prev{
+    background: url("../img/icon/prevArrow.svg");
+    background-size: 100% 100%;
+}
+
+.slick-next{
+    background: url("../img/icon/nextArrow.svg");
+    background-size: 100% 100%;
+}
