@@ -1,0 +1,194 @@
+/* Landpage content */
+
+.bg-main{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container-landpage{
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: 6em;
+}
+
+.landpage-content{
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+.landpage-content h1{
+    font-weight: lighter;
+    color: var(--branco);
+}
+
+.landpage-content span{
+    color: var(--azulClaro);
+}
+
+.landpage-content a{
+    margin-top: 1em;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.image-container{
+    width: 220%;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+}
+
+/* Second Content */
+
+.container-second-content{
+    width: 100%;
+
+    margin-top: -18%;
+    padding-left: 6em;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-second-content div h1{
+    color: var(--azulClaro);
+    margin-bottom: 1em;
+}
+
+.container-second-content div h2{
+    color: var(--azulEscuro);
+    font-weight: normal;
+}
+
+.container-second-content span{
+    color: var(--azulClaro);
+}
+
+.container-second-content a{
+    margin-top: 1em;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+/* Planos */
+    /* Card Planos */
+
+.container-planos{
+    width: 100%;
+
+    background: url("../img/fundos/fundoPlanos.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 0 6em 0 6em;
+}
+
+.container-planos > h1{
+    color: var(--azulClaro);
+}
+
+.planos-content, .clientes-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 2em;
+}
+
+.planos-content{    
+    margin-bottom: 4em;
+}
+
+.card{
+    width: 30%;
+    height: max-content;
+
+    padding: 2em 0 2em 0;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.card a{
+    display: inline-block;
+}
+
+.card h1{
+    font-size: 3em;
+}
+
+.card-plano{
+    background: white;
+    box-shadow: 0.5em 0.5em 0 rgba(211, 211, 211, 0.35);
+    color: var(--azulEscuro);
+}
+
+.card-btn{
+    margin-top: 1em;
+}
+
+    /* Card Clientes */
+
+.card-cliente{
+    height: 19em;
+
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+    margin-bottom: 7em;
+
+    box-shadow: 0.5em 0.5em 0 rgba(211, 211, 211, 0.35);
+
+    color: var(--branco);
+}
+
+.card-cliente h1{
+    font-size: 2em;
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.card-cliente a{
+    display: inline-block;
+}
+
+.card-cliente p:first-of-type{
+    margin-bottom: 1em;
+
+    line-height: 1.6em;
+}
+
+.telefone{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: var(--azulEscuro);
+
+    margin-bottom: 0px;
+}
+
+/* Acessar serviços */
+
+.container-access-service{
+    width: 100%;
+    padding: 3em 0 3em 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-access-service h1{
+    color: var(--branco);
+
+    margin-bottom: 1em;
+}
