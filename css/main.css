@@ -61,6 +61,36 @@ a{
     background: var(--vermelho);
 }
 
+.header-search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    height: 2.5em;
+    padding-left: 15px;
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    outline: none;
+    border: 3px solid var(--azulClaro);
+}
+
+.search-btn{
+    height: 2.5em;
+
+    background: var(--azulClaro);
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Footer */
 
 footer{
