@@ -235,7 +235,21 @@
 
 /* Formulário */
 
+.container-form{
+    width: 100%;
 
+    padding: 0 6em 0 6em;
+
+    background: url("../img/fundos/fundoContatos.png");
+}
+
+.container-form h1{
+    color: var(--amarelo);
+}
+
+.container-form p{
+    color: var(--branco);
+}
 
 /* Slider Comentários */
 
@@ -263,8 +277,34 @@
 #sliderComentario div{
     display: flex;
     justify-content: space-around;
-    align-items: center;
 
     outline: none;
 }
 
+.comentario{
+    display: flex;
+    align-items: center;
+}
+
+.comentario div{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario-nome{
+    font-size: 1.5em;
+}
+
+.comentario-texto{
+    color: var(--azulClaro);
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.comentario-texto::before{
+    content: '“';
+}
+
+.comentario-texto::after{
+    content: '”';
+}
