@@ -78,6 +78,11 @@
         </div>
     </main>
 
+    <div class="container-bottom-img">
+        <img src="img/imagens/img3.png" alt="">
+    </div>
+    
+
     <!-- Footer -->
     <?php 
         getFooter();

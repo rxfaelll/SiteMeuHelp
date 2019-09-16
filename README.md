@@ -15,7 +15,7 @@ Site do MeuHelp
 
 * [x] Página beneficios
 
-* [ ] Página parceiros
+* [x] Página parceiros
 
 ## To do list mobile
 
