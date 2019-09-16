@@ -5,12 +5,12 @@ function getHeader(){
                     <img src="img/logo/logo.png" alt="">
                 </span>
                 <nav class="header-nav">
-                    <a href="https://meuhelp.com.br">Página inicial</a>
-                    <a href="https://meuhelp.com.br">Planos</a>
-                    <a href="https://meuhelp.com.br">Saiba mais</a>
-                    <a href="https://meuhelp.com.br/beneficios.php">Benefícios</a>
-                    <a href="https://meuhelp.com.br">Serviços</a>
-                    <a href="https://meuhelp.com.br">Ajuda</a>
+                    <a href="">Página inicial</a>
+                    <a href="">Planos</a>
+                    <a href="">Saiba mais</a>
+                    <a href="beneficios.php">Benefícios</a>
+                    <a href="">Serviços</a>
+                    <a href="">Ajuda</a>
                 </nav>
                 <form action="" class="header-search-form">
                     <input type="text" name="search" placeholder="buscar" class="search-input" autocomplete="off">

@@ -164,7 +164,7 @@
         <div id="sliderParceiros">
             <div>
                 <img src="img/imagens/burgerkingLogo.png" alt="">
-                <img src="img/imagens/cinemarkLogo.png" alt="">
+                <img src="img/imagens/cinemarkLogo.png" alt="">      
                 <img src="img/imagens/bluefitLogo.png" alt="">
             </div>
             <div>
