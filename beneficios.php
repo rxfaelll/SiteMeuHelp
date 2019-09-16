@@ -96,7 +96,11 @@
             </div>
         </div>
 
-        
+        <div class="beneficios-btn-container">
+            <a href="" class="normal-button darkblue-bg">Planos</a>
+            <a href="" class="normal-button yellow-bg">Contrate já</a>
+        </div>
+
     </main>
 
     <!-- Footer -->
