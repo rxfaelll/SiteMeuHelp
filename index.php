@@ -162,16 +162,22 @@
 
         <!-- Slider Parceiros -->
         <div id="sliderParceiros">
+        <a href="parceiros.php">
             <div>
                 <img src="img/imagens/burgerkingLogo.png" alt="">
                 <img src="img/imagens/cinemarkLogo.png" alt="">      
                 <img src="img/imagens/bluefitLogo.png" alt="">
             </div>
+        </a>
+
+        <a href="parceiros.php">
             <div>
                 <img src="img/imagens/magazineLogo.png" alt="">
                 <img src="img/imagens/sonyLogo.png" alt="">
                 <img src="img/imagens/netshoesLogo.png" alt="">
             </div>
+        </a>
+
         </div>
 
         <!-- Formulário -->
@@ -244,6 +250,7 @@
     <script src="jquery/jquery.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/sliders.js"></script>
+    <script src="js/scrollHeaderBtn.js"></script>
 
 </body>
 </html>
