@@ -89,6 +89,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 0 10px 0 3px;
 }
 
 /* Footer */
