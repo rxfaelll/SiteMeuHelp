@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/busca.css">
     <title>Meu Help</title>
 </head>
 <body>
@@ -25,10 +26,45 @@
         getFixedSocialBar();
     ?>
 
-    <div>
-        <h1></h1>
-        <p>Lorem ipsum dolor sit amet</p>
-    </div>
+<img src="img/fundos/fundoHeaderSec2.png" alt="" class="header-bg">
+
+    <main>
+        <a href="">
+            <div class="container-result">
+                <h1>Cartão meuHelp</h1>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip
+                </p>
+            </div>
+        </a>
+
+        <a href="">
+            <div class="container-result">
+                <h1>Cartão meuHelp</h1>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip
+                </p>
+            </div>
+        </a>
+
+        <a href="">
+            <div class="container-result">
+                <h1>Cartão meuHelp</h1>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip
+                </p>
+            </div>
+        </a>
+    </main>
 
     <!-- Footer -->
     <?php 

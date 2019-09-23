@@ -25,10 +25,10 @@ function searchQuery(search) {
 
 function searchResult(searchMade) {
     if (searchMade == 1){
-        window.location.href = "cartao.php";
+        window.location.href = "cartao";
     } else if (searchMade == 2){
-        window.location.href = "saude.php";
+        window.location.href = "saude";
     } else if (searchMade == 0){
-        window.location.href = "busca.php";
+        window.location.href = "busca";
     }
 }

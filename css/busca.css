@@ -1,0 +1,54 @@
+.header-bg{
+    width: 100%;
+    height: auto;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main{
+    padding: 9em 6em 0 6em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-result{
+    width: 35em;
+
+    padding: 2em;
+    margin-bottom: 2em;
+
+    background: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+}
+
+.container-result h1{
+    color: var(--azulClaro);
+}
+
+.container-result p{
+    color: var(--azulEscuro);
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+/* Mensagem de nada encontrado */
+
+.not-found-msg{
+    width: 35em;
+    color: var(--azulEscuro);
+
+    margin-bottom: 2em;
+}
+
+.not-found-msg a{
+    color: var(--amarelo);
+} 

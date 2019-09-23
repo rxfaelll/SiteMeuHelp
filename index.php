@@ -162,7 +162,7 @@
 
         <!-- Slider Parceiros -->
         <div id="sliderParceiros">
-        <a href="parceiros.php">
+        <a href="parceiros">
             <div>
                 <img src="img/imagens/burgerkingLogo.png" alt="">
                 <img src="img/imagens/cinemarkLogo.png" alt="">      
@@ -170,7 +170,7 @@
             </div>
         </a>
 
-        <a href="parceiros.php">
+        <a href="parceiros">
             <div>
                 <img src="img/imagens/magazineLogo.png" alt="">
                 <img src="img/imagens/sonyLogo.png" alt="">

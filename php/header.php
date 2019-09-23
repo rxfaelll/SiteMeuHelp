@@ -5,10 +5,10 @@ function getHeader(){
                     <img src="img/logo/logo.png" alt="">
                 </span>
                 <nav class="header-nav">
-                    <a href="index.php">Página inicial</a>
+                    <a href="index">Página inicial</a>
                     <a href="" id="planosBtn">Planos</a>
                     <a href="">Saiba mais</a>
-                    <a href="beneficios.php">Benefícios</a>
+                    <a href="beneficios">Benefícios</a>
                     <a href="http://meuhelp.com.br/blog">Blog</a>
                 </nav>
                 <form class="header-search-form">
