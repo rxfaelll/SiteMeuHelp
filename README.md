@@ -3,7 +3,7 @@ Site do MeuHelp
 
 ## To do list geral
 
-* [ ] Barra de pesquisa funcional
+* [x] Barra de pesquisa funcional
 
 * [ ] Banco de dados
 
