@@ -13,7 +13,9 @@ Site do MeuHelp
 
 * [ ] Inserir formulários de contratação
 
-* [ ] Inserir formulário de contrato
+* [ ] Inserir formulário para ser representante comercial
+
+* [ ] Inserir formulário de contato
 
 * [ ] Inserir encaminhamento pro WhatsApp na footer fixed bar
   
