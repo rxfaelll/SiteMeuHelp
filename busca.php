@@ -33,8 +33,7 @@
             <h1>Não encontramos nada relacionado a sua busca, tente buscar por algo diferente
                 ou <a href="index.php">clique aqui para voltar à página inicial</a>
             </h1>
-        </div>
-        
+        </div>        
     </main>
 
     <!-- Footer -->

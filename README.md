@@ -5,9 +5,17 @@ Site do MeuHelp
 
 * [x] Barra de pesquisa funcional
 
-* [ ] Banco de dados
-
 * [ ] Responsividade
+
+* [ ] Função para botões Saiba Mais
+
+* [ ] Remover acesso aos serviços
+
+* [ ] Inserir formulários de contratação
+
+* [ ] Inserir formulário de contrato
+
+* [ ] Inserir encaminhamento pro WhatsApp na footer fixed bar
   
 ## To do list desktop
 

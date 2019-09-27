@@ -3,7 +3,7 @@ function getFooter(){
     echo '<footer class="darkblue-bg">
                 <div>
                     <span>
-                        <img src="img/logo/logo.png" alt="">
+                        <img src="img/logo/logoFooter.png" alt="">
                     </span>
                 </div>
                 <div class="container-links-footer">
