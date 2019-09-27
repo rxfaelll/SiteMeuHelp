@@ -33,3 +33,11 @@ Site do MeuHelp
 
 * [ ] Página parceiros
 
+## Campos do Formulário de cadastro Representante Comercial
+
++ Nome
++ Telefone
++ Endereço
++ Cidade
++ UF
++ Email
