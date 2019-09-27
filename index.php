@@ -39,7 +39,7 @@
                 <h1>O <strong>Meu<span>Help</span></strong> é um cartão de crédito  pré-pago com multibenefícios,
                     que  oferece a você muita economia, acesso a serviços de assistências e saúde 24 horas.
                 </h1>
-                <a href="" class="normal-button lightblue-bg">Quero agora</a>
+                <a href="" class="normal-button lightblue-bg scroll-down-btn">Quero agora</a>
             </div>
         </div>
         
@@ -250,7 +250,7 @@
     <script src="jquery/jquery.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/sliders.js"></script>
-    <script src="js/scrollHeaderBtn.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 </html>
