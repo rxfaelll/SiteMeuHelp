@@ -155,10 +155,10 @@
             </div>
         </div>
 
-        <div class="container-access-service red-bg">
+        <!-- <div class="container-access-service red-bg">
             <h1>Se você já é nosso cliente, acesse e agende nossos serviços</h1>
             <a href="" class="normal-button darkblue-bg">Acesso aos serviços</a>
-        </div>
+        </div> -->
 
         <!-- Slider Parceiros -->
         <div id="sliderParceiros">

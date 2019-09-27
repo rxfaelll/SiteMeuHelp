@@ -9,7 +9,7 @@ Site do MeuHelp
 
 * [ ] Função para botões Saiba Mais
 
-* [ ] Remover acesso aos serviços
+* [x] Remover acesso aos serviços
 
 * [ ] Inserir formulários de contratação
 
