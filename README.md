@@ -11,11 +11,11 @@ Site do MeuHelp
 
 * [x] Remover acesso aos serviços
 
-* [ ] Inserir formulários de contratação
+* [x] Inserir formulários de contratação
 
 * [ ] Inserir formulário para ser representante comercial
 
-* [ ] Inserir formulário de contato
+* [x] Inserir formulário de contato
 
 * [ ] Inserir encaminhamento pro WhatsApp na footer fixed bar
   
@@ -34,12 +34,3 @@ Site do MeuHelp
 * [ ] Página beneficios
 
 * [ ] Página parceiros
-
-## Campos do Formulário de cadastro Representante Comercial
-
-+ Nome
-+ Telefone
-+ Endereço
-+ Cidade
-+ UF
-+ Email
