@@ -31,6 +31,6 @@ Site do MeuHelp
 
 * [ ] Página home 
 
-* [ ] Página beneficios
+* [x] Página beneficios
 
 * [ ] Página parceiros

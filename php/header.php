@@ -1,9 +1,15 @@
 <?php
 function getHeader(){
     echo '<header>
-                <span class="logo">
+                <div class="logo">
                     <img src="img/logo/logo.png" alt="">
-                </span>
+                </div>
+                <div class="mobile-menu-container">
+                    <input type="checkbox" id="mobile-menu-btn">                    
+                    <div class="mobile-menu-icon mobile-menu-top"></div>
+                    <div class="mobile-menu-icon mobile-menu-mid"></div>
+                    <div class="mobile-menu-icon mobile-menu-bot"></div>
+                </div>
                 <nav class="header-nav">
                     <a href="index">Página inicial</a>
                     <a href="" class="scroll-down-btn">Planos</a>

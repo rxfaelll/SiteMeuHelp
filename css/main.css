@@ -16,157 +16,160 @@ body{
     --vermelho: #EA402F;
 }
 
-/* Header */
+@media screen and (min-width: 769px){
+    /* Header */
 
-header{
-    width: 100%;
+    header{
+        width: 100%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-    padding: 10px 6em 10px 6em;
+        padding: 10px 6em 10px 6em;
+    }
+
+    .header-nav a{
+        margin-left: 1em;
+        color: var(--branco);
+    }
+
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .normal-button{
+        padding: 10px 15px 10px 15px;
+        border-radius: 50px;
+
+        color: white;
+    }
+
+    .lightblue-bg{
+        background: var(--azulClaro);
+    }
+
+    .yellow-bg{
+        background: var(--amarelo);
+    }
+
+    .darkblue-bg{
+        background: var(--azulEscuro);
+    }
+
+    .red-bg{
+        background: var(--vermelho);
+    }
+
+    .header-search-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-input{
+        height: 2.5em;
+        padding-left: 15px;
+
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+
+        outline: none;
+        border: 3px solid var(--azulClaro);
+    }
+
+    .search-btn{
+        height: 2.5em;
+
+        background: var(--azulClaro);
+        border: none;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 10px 0 3px;
+    }
+
+    /* Footer */
+
+    footer{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 3em 6em 3em 6em;
+
+        color: var(--branco);
+    }
+
+    .container-links-footer, .container-social-footer, .container-local-footer ul{
+        height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container-links-footer a{
+        color: var(--branco);
+    }
+
+    .container-local-footer ul{
+        list-style: none;
+
+        position: relative;
+    }
+
+    .container-local-footer ul li::before{
+        content: url("../img/icon/placeIcon.png");
+
+        position: absolute;
+        left: -2em;
+    }
+
+    .container-social-footer a{
+        display: flex;
+        align-items: center;
+
+        color: var(--branco);
+        font-weight: normal;
+    }
+
+    .container-social-footer a img{
+        margin-right: 0.3em;
+    }
+
+    /* Fixed Social Bar */
+
+    .fixed-social-bar{
+        width: 100%;
+
+        padding: 0.4em 0 0.4em 0;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .fixed-social-bar a{
+        display: flex;
+        align-items: center;
+
+        color: var(--branco);
+    }
+
+    .fixed-social-bar a img{
+        margin-right: 1em; 
+    }
 }
 
-.header-nav a{
-    margin-left: 1em;
-    color: var(--branco);
-}
-
-a{
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.normal-button{
-    padding: 10px 15px 10px 15px;
-    border-radius: 50px;
-
-    color: white;
-}
-
-.lightblue-bg{
-    background: var(--azulClaro);
-}
-
-.yellow-bg{
-    background: var(--amarelo);
-}
-
-.darkblue-bg{
-    background: var(--azulEscuro);
-}
-
-.red-bg{
-    background: var(--vermelho);
-}
-
-.header-search-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-input{
-    height: 2.5em;
-    padding-left: 15px;
-
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-
-    outline: none;
-    border: 3px solid var(--azulClaro);
-}
-
-.search-btn{
-    height: 2.5em;
-
-    background: var(--azulClaro);
-    border: none;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 0 10px 0 3px;
-}
-
-/* Footer */
-
-footer{
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 3em 6em 3em 6em;
-
-    color: var(--branco);
-}
-
-.container-links-footer, .container-social-footer, .container-local-footer ul{
-    height: 200px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.container-links-footer a{
-    color: var(--branco);
-}
-
-.container-local-footer ul{
-    list-style: none;
-
-    position: relative;
-}
-
-.container-local-footer ul li::before{
-    content: url("../img/icon/placeIcon.png");
-
-    position: absolute;
-    left: -2em;
-}
-
-.container-social-footer a{
-    display: flex;
-    align-items: center;
-
-    color: var(--branco);
-    font-weight: normal;
-}
-
-.container-social-footer a img{
-    margin-right: 0.3em;
-}
-
-/* Fixed Social Bar */
-
-.fixed-social-bar{
-    width: 100%;
-
-    padding: 0.4em 0 0.4em 0;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    position: fixed;
-    bottom: 0;
-    z-index: 10;
-}
-
-.fixed-social-bar a{
-    display: flex;
-    align-items: center;
-
-    color: var(--branco);
-}
-
-.fixed-social-bar a img{
-    margin-right: 1em; 
-}

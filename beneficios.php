@@ -12,6 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/beneficios.css">
+    <link rel="stylesheet" href="css/mobile/beneficiosMobile.css">
+    <link rel="stylesheet" href="css/mobile/mainMobile.css">
     <title>Beneficios - Meu Help</title>
 </head>
 <body>    
@@ -107,5 +109,7 @@
     <?php 
         getFooter();
     ?>
+
+    <script src="js/mobileMenu.js"></script>
 </body>
 </html>

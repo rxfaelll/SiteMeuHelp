@@ -1,7 +1,7 @@
 <?php
 function getFooter(){
     echo '<footer class="darkblue-bg">
-                <div>
+                <div class="footer-logo">
                     <span>
                         <img src="img/logo/logoFooter.png" alt="">
                     </span>

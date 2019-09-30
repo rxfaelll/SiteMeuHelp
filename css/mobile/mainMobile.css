@@ -1,0 +1,227 @@
+@media screen and (max-width:768px){
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .normal-button{
+        padding: 10px 15px 10px 15px;
+        border-radius: 50px;
+
+        color: white;
+    }
+
+    .lightblue-bg{
+        background: var(--azulClaro);
+    }
+
+    .yellow-bg{
+        background: var(--amarelo);
+    }
+
+    .darkblue-bg{
+        background: var(--azulEscuro);
+    }
+
+    .red-bg{
+        background: var(--vermelho);
+    }
+
+    header{
+        width: 100%;
+        height: 80px;
+
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+
+        
+        position: fixed;
+        top: 0;
+        background: var(--azulEscuro);
+    }
+
+    .logo{
+        height: 60px;
+    }
+
+    .logo img{
+        width: auto;
+        height: 100%;
+    }
+
+    .header-nav{
+        width: 100%;
+        height: 0;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        background: var(--branco);        
+        transition: all 0.3s ease-in-out;
+    }
+
+    .open-header-nav{
+        height: 13em;
+
+        padding-top: 1em;
+    }
+
+    .header-nav a{
+        font-size: 1.4em;
+        text-decoration: none;
+        color: var(--azulEscuro);
+        text-align: center;
+
+        margin-bottom: 1em;
+    }
+
+    .fixed-social-bar, .fixed-social-bar a{
+        display: none;
+    }
+
+    .mobile-menu-container{
+        width: 50px;
+        height: 50px;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 11;
+    }
+
+    #mobile-menu-btn{
+        width: 100%;
+        height: 100%;
+
+        opacity: 0;
+    }
+
+    .mobile-menu-icon{
+        width: 40px;
+        height: 5px;
+
+        background: var(--branco);
+        border-radius: 40px;
+
+        pointer-events: none;
+
+        transition: top 0.3s linear, 
+        transform 0.3s ease-in-out,
+        opacity 0.3s ease-in,
+        background-color 0.3s ease-in-out;
+    }
+
+    .mobile-menu-top{
+        position: absolute;
+        top: 10px;
+        left: 5px;
+    }
+
+    .mobile-menu-mid{
+        position: absolute;
+        top: 20px;
+        left: 5px;
+    }
+
+    .mobile-menu-bot{
+        position: absolute;
+        top: 30px;
+        left: 5px;
+    }
+
+    #mobile-menu-btn:checked ~ .mobile-menu-icon{
+        background-color: var(--azulEscuro);
+    }
+
+    #mobile-menu-btn:checked ~ .mobile-menu-top{
+        top: 20px;
+
+        transform: rotate(45deg);
+    }
+
+    #mobile-menu-btn:checked ~ .mobile-menu-mid{
+        opacity: 0;
+    }
+
+    #mobile-menu-btn:checked ~ .mobile-menu-bot{
+        top: 20px;
+
+        transform: rotate(-45deg);
+    }
+
+    .header-search-form{
+        display: none;
+    }
+
+    /* Fotter */
+
+    footer{
+        padding: 1em;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo span img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container-links-footer{
+        display: flex;
+        flex-direction: column;
+
+        margin: 1em 0 1em 0;
+    }
+
+    .container-links-footer a{
+        text-align: center;
+        color: var(--branco);
+
+        margin-bottom: 1em;
+    }
+
+    .container-local-footer ul{        
+        list-style: none;
+
+        margin-left: 3em;
+    }
+
+    .container-local-footer ul li{
+        color: var(--branco);
+
+        margin-bottom: 1em;
+        position: relative;
+    }
+
+    .container-local-footer ul li::before{
+        content: url("../../img/icon/placeIcon.png");
+
+        position: absolute;
+        left: -2em;
+    }
+
+    .container-social-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-social-footer a, .container-social-footer span{
+        color: var(--branco);
+        font-weight: normal;
+
+        display: flex;
+
+        margin-bottom: 10px;
+    }
+
+    .container-social-footer a img{
+        margin-right: 0.4em;
+    }
+}
