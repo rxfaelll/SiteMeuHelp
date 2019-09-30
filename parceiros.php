@@ -8,10 +8,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/parceiros.css">
+    <link rel="stylesheet" href="css/mobile/mainMobile.css">
+    <link rel="stylesheet" href="css/mobile/parceirosMobile.css">
     <title>Parceiros - Meu Help</title>
 </head>
 <body>
@@ -87,5 +89,7 @@
     <?php 
         getFooter();
     ?>
+
+    <script src="js/mobileMenu.js"></script>
 </body>
 </html>
