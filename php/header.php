@@ -7,7 +7,6 @@ function getHeader(){
                 <nav class="header-nav">
                     <a href="index">Página inicial</a>
                     <a href="" class="scroll-down-btn">Planos</a>
-                    <a href="">Saiba mais</a>
                     <a href="beneficios">Benefícios</a>
                     <a href="http://meuhelp.com.br/blog">Blog</a>
                 </nav>
