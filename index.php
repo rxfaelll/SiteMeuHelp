@@ -54,7 +54,7 @@
                     que oferece ao associado muita economia,
                     acesso a serviços de saúde e assistência 24 horas.
                 </h2>
-                <a href="" class="normal-button yellow-bg">Saiba mais</a>
+                <a href="beneficios" class="normal-button yellow-bg">Saiba mais</a>
             </div>
             <div class="image-container">
                 <img src="img/imagens/img2.png" alt="Mulher feliz com o cartão pré-pago Meu Help" class="hide-content">
@@ -1602,12 +1602,12 @@
 
                 <!-- Card 3 -->
                 <div class="card lightblue-bg card-cliente">
-                    <h1>Ative seu cartão</h1>
+                    <h1>Comprou um cartão na loja?</h1>
                     <p>Então, cadastre seu cartão agora mesmo, e depois, 
                         ligue para a central de relacionamento e cadastre
                         sua nova senha 
                     </p>
-                    <a href="" class="normal-button yellow-bg">Acesse Já</a>
+                    <p class="telefone">Ligue (11) 4780-0700</p>
                 </div>
             </div>
         </div>
