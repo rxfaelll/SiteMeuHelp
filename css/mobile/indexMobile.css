@@ -10,6 +10,8 @@
 
         display: flex;
         flex-direction: column-reverse;
+
+        margin-top: 6em;
     }
 
     .landpage-content{
@@ -24,9 +26,127 @@
         margin-bottom: 30px;
     }
 
-    .landpage-content h1 > strong > span{
+    .landpage-content h1 > strong > span,
+    .container-second-content h2 > strong > span{
         color: var(--azulClaro);
     }
 
+    .img-desk, .hide-content{
+        display: none;
+    }
 
+    .image-container{
+        width: 100%;
+    }
+
+    .img-mob{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-second-content{
+        padding: 0 1em 0 1em;
+    }
+
+    .container-second-content h1{
+        color: var(--azulClaro);
+    }
+
+    .container-second-content h2{
+        color: var(--azulEscuro);
+        font-weight: normal;
+
+        margin-bottom: 30px;
+    }
+
+    .container-planos{
+        padding: 0 1em 0 1em;
+        margin-top: 40px;
+    }
+
+    .container-planos > h1{
+        color: var(--azulClaro);
+    }
+
+    .card-plano{
+        background: var(--branco);
+        box-shadow: 0.5em 0.5em 0 rgba(211, 211, 211, 0.35);
+        border-radius: 7px;
+
+        margin-bottom: 30px;
+        padding: 1em 0 1em 0;
+    }
+
+    .card-plano h2,
+    .card-plano h1, 
+    .card-plano h6, 
+    .card-plano p{
+        text-align: center;
+    }
+
+    .card-plano img{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .card-btn{
+        display: flex;
+        justify-content: space-around;
+    }
+
+        /* Forms planos */
+
+        .form-container-1, .form-container-2, .form-container-3{
+            display: none;
+        }
+    
+        .open-form{
+            width: 80%;
+            height: 80vh;
+
+            overflow: scroll;
+
+            padding: 20px;
+            background: white;
+            border-radius: 7px;
+    
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            z-index: 2;
+            transform: translate(-50%, -50%);
+    
+            display: block;
+        }
+    
+        .js-form-blur{
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    
+        .open-blur{
+            width: 100%;
+            height: 100vh;
+    
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+    .card-cliente{
+        box-shadow: 0.5em 0.5em 0 rgba(211, 211, 211, 0.35);
+        border-radius: 7px;
+
+        margin-bottom: 30px;
+        padding: 1em;
+    }
+
+    .card-cliente p, .card-cliente h1{
+        color: var(--branco);
+    }
+
+    .card-cliente a{
+        display: block;
+        text-align: center;
+    }
 }

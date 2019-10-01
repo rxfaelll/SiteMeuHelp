@@ -28,7 +28,8 @@
         getFixedSocialBar();
     ?>
 
-    <img src="img/fundos/fundoHeaderSec2.png" alt="" class="header-bg">
+    <img src="img/fundos/fundoHeaderSec2.png" alt="" class="header-bg desk-bg">
+    <img src="img/fundos/fundoHeaderMob2.png" alt="" class="header-bg mob-bg">
 
     <main>
         <h1>Parceiros</h1>

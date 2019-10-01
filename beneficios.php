@@ -27,7 +27,8 @@
         getFixedSocialBar();
     ?>
 
-    <img src="img/fundos/fundoHeaderSec1.png" alt="" class="header-bg">
+    <img src="img/fundos/fundoHeaderSec1.png" alt="" class="header-bg desk-bg">
+    <img src="img/fundos/fundoHeaderMob.png" alt="" class="header-bg mob-bg">
 
     <main>
         <h1>Beneficios</h1>

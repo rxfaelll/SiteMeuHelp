@@ -8,6 +8,10 @@
         left: 0;
         z-index: -1;
     }
+
+    .desk-bg{
+        display: none;
+    }
     
     main{
         margin-top: 8em;

@@ -8,6 +8,10 @@
         left: 0;
         z-index: -1;
     }
+
+    .mob-bg{
+        display: none;
+    }
     
     main{
         width: 100%;

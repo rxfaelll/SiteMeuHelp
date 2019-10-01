@@ -35,7 +35,8 @@
         <img src="img/fundos/fundoMain.png" alt="" class="bg-main">
         <div class="container-landpage">
             <div class="image-container">
-                <img src="img/imagens/img1.png" alt="">
+                <img src="img/imagens/img4.png" alt="" class="img-mob">
+                <img src="img/imagens/img1.png" alt="" class="img-desk">
             </div>            
             <div class="landpage-content">
                 <h1>O <strong>Meu<span>Help</span></strong> é um cartão de crédito  pré-pago com multibenefícios,
@@ -56,7 +57,7 @@
                 <a href="" class="normal-button yellow-bg">Saiba mais</a>
             </div>
             <div class="image-container">
-                <img src="img/imagens/img2.png" alt="Mulher feliz com o cartão pré-pago Meu Help">
+                <img src="img/imagens/img2.png" alt="Mulher feliz com o cartão pré-pago Meu Help" class="hide-content">
             </div>
         </div>
 

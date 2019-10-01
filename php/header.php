@@ -12,7 +12,7 @@ function getHeader(){
                 </div>
                 <nav class="header-nav">
                     <a href="index">Página inicial</a>
-                    <a href="" class="scroll-down-btn">Planos</a>
+                    <a href="" class="scroll-down-btn planos-btn">Planos</a>
                     <a href="beneficios">Benefícios</a>
                     <a href="http://meuhelp.com.br/blog">Blog</a>
                 </nav>
