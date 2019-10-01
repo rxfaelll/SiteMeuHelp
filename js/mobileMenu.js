@@ -30,8 +30,8 @@ function closeMenu() {
 
 
 //Esconde o botão Planos do header quando não estiver na página principal
-if (getUrl != "http://localhost/MeuHelpSite/index") {
+if (getUrl != "http://supremeag.com.br/desenvolvimento/MeuHelpSite/") {
     
-    scrollBtn.classList.add("hide-header-btn");
+    scrollBtn.setAttribute("href", "index");
     console.log("oi");    
 }

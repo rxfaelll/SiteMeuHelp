@@ -33,6 +33,10 @@ body{
         padding: 10px 6em 10px 6em;
     }
 
+    .mobile-menu-container{
+        display: none;
+    }
+
     .header-nav a{
         margin-left: 1em;
         color: var(--branco);

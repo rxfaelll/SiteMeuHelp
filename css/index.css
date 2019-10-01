@@ -9,10 +9,6 @@
         z-index: -1;
     }
 
-    .mobile-menu-container{
-        display: none;
-    }
-
     .img-mob{
         display: none;
     }
@@ -205,6 +201,10 @@
     }
 
     /* Slider Parceiros */
+
+    #sliderComentarioMobile, #sliderParceirosMobile{
+        display: none;
+    }
 
     #sliderParceiros{
         width: 100%;
