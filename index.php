@@ -1619,22 +1619,42 @@
 
         <!-- Slider Parceiros -->
         <div id="sliderParceiros">
-        <a href="parceiros">
-            <div>
+            <a href="parceiros">
+                <div>
+                    <img src="img/imagens/burgerkingLogo.png" alt="">
+                    <img src="img/imagens/cinemarkLogo.png" alt="">      
+                    <img src="img/imagens/bluefitLogo.png" alt="">
+                </div>
+            </a>
+
+            <a href="parceiros">
+                <div>
+                    <img src="img/imagens/magazineLogo.png" alt="">
+                    <img src="img/imagens/sonyLogo.png" alt="">
+                    <img src="img/imagens/netshoesLogo.png" alt="">
+                </div>
+            </a>
+        </div>
+
+        <div id="sliderParceirosMobile">
+            <a href="">
                 <img src="img/imagens/burgerkingLogo.png" alt="">
-                <img src="img/imagens/cinemarkLogo.png" alt="">      
+            </a>
+            <a href="">
+                <img src="img/imagens/cinemarkLogo.png" alt="">
+            </a>
+            <a href="">
                 <img src="img/imagens/bluefitLogo.png" alt="">
-            </div>
-        </a>
-
-        <a href="parceiros">
-            <div>
+            </a>
+            <a href="">
                 <img src="img/imagens/magazineLogo.png" alt="">
+            </a>
+            <a href="">
                 <img src="img/imagens/sonyLogo.png" alt="">
+            </a>
+            <a href="">
                 <img src="img/imagens/netshoesLogo.png" alt="">
-            </div>
-        </a>
-
+            </a>
         </div>
 
         <!-- Formulário -->
@@ -1700,6 +1720,17 @@
                         <span class="comentario-texto">Serviços muito bem prestados.</span>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div id="sliderComentarioMobile">
+            <div>
+                <div class="comentario-nome">Juliana Ferreira</div>
+                <div class="comentario-texto">Não vivo mais sem esse cartão.</div>
+            </div>
+            <div>
+                <div class="comentario-nome">Wilson Gomes</div>
+                <div class="comentario-texto">Serviços muito bem prestados.</div>
             </div>
         </div>
     </main>

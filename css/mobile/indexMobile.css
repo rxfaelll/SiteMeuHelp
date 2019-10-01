@@ -149,4 +149,74 @@
         display: block;
         text-align: center;
     }
+
+    .container-form{
+        background-image: url("../../img/fundos/contatoFormFundoMob.png");
+        background-size: 100% 100%;
+        padding-top: 6em;
+    }
+
+    .contact-form-text{
+        padding: 0 1em 0 1em;
+    }
+
+    .contact-form-text h1{
+        color: var(--amarelo);
+    }
+
+    .contact-form-text p{
+        color: var(--branco);
+    }
+
+    #sliderComentario, #sliderParceiros{
+        display: none;
+    }
+
+    #sliderParceirosMobile, #sliderComentarioMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sliderParceirosMobile a img{
+        margin: 0 auto;
+    }
+
+    #sliderComentarioMobile{
+        margin: 1em 0 1em 0;
+    }
+
+    .comentario-nome{
+        color: var(--azulEscuro);
+    }
+
+    .comentario-texto{
+        padding: 0.1em 0.4em;
+        background: #F2F2F2;
+        border-radius: 50px;
+
+        color: var(--azulClaro);
+    }
+
+    .slick-arrow{
+        width: 40px;
+        height: 40px;
+
+        border: none;
+        color: rgba(0, 0, 0, 0);
+        outline: none;
+
+        cursor: pointer;
+    }
+
+    .slick-prev{
+        background: url("../../img/icon/prevArrow.svg");
+        background-size: 100% 100%;
+    }
+
+    .slick-next{
+        background: url("../../img/icon/nextArrow.svg");
+        background-size: 130% 100%;
+        background-repeat: no-repeat;
+    }
 }
