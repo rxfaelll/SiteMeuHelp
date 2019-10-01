@@ -9,6 +9,14 @@
         z-index: -1;
     }
 
+    .mobile-menu-container{
+        display: none;
+    }
+
+    .img-mob{
+        display: none;
+    }
+
     .container-landpage{
         display: flex;
         justify-content: space-between;
