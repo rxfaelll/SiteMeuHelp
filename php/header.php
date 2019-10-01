@@ -1,9 +1,11 @@
 <?php
 function getHeader(){
     echo '<header>
-                <div class="logo">
-                    <img src="img/logo/logo.png" alt="">
-                </div>
+                <a href="index">
+                    <div class="logo">
+                        <img src="img/logo/logo.png" alt="">
+                    </div>
+                </a>               
                 <div class="mobile-menu-container">
                     <input type="checkbox" id="mobile-menu-btn">                    
                     <div class="mobile-menu-icon mobile-menu-top"></div>

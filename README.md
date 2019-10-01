@@ -5,7 +5,7 @@ Site do MeuHelp
 
 * [x] Barra de pesquisa funcional
 
-* [ ] Responsividade
+* [x] Responsividade
 
 * [ ] Função para botões Saiba Mais
 
@@ -29,7 +29,7 @@ Site do MeuHelp
 
 ## To do list mobile
 
-* [ ] Página home 
+* [x] Página home 
 
 * [x] Página beneficios
 
