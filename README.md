@@ -13,7 +13,7 @@ Site do MeuHelp
 
 * [x] Inserir formulários de contratação
 
-* [ ] Inserir formulário para ser representante comercial
+* [x] Inserir formulário para ser representante comercial
 
 * [x] Inserir formulário de contato
 

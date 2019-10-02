@@ -85,6 +85,11 @@
                     </div>
                 </div>
                 <div class="form-container-1">
+                    <div class="js-close-form-button close-form-btn">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h1>Plano Individual MeuHelp</h1>
                     <h3>Preencha o formulário para entrarmos em contato com você</h3>
                         <style>
                             #_form_10_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
@@ -584,6 +589,11 @@
                     </div>
                 </div>
                 <div class="form-container-2">
+                    <div class="js-close-form-button close-form-btn">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h1>Plano Familiar</h1>
                     <h3>Preencha o formulário para entrarmos em contato com você</h3>
                     <style>
                     #_form_12_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
@@ -1083,6 +1093,11 @@
                     </div>
                 </div>
                 <div class="form-container-3">
+                    <div class="js-close-form-button close-form-btn">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h1>Plano Para Empresas</h1>
                     <h3>Preencha o formulário para entrarmos em contato com você</h3>
                     <style>
                         #_form_14_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }

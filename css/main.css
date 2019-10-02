@@ -180,5 +180,82 @@ body{
     .fixed-social-bar a img{
         margin-right: 1em; 
     }
+
+    .footer-form{
+        width: 40em;
+
+        background: var(--branco);
+        border-radius: 7px;
+
+        padding: 2em;
+
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        -webkit-font-smoothing: antialiased;
+
+        display: none;
+    }
+
+    .footer-form h1{
+        color: var(--azulEscuro);
+    }
+
+    .footer-form h4{
+        color: var(--azulEscuro);
+    }    
+
+    #footerFormBlur{
+        width: 100%;
+        height: 100vh;
+
+        background: rgba(0, 0, 0, 0.4);
+
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .footer-form-blur-closed{
+        display: none;
+    }
+    
+    .footer-form-open{
+        display: block;
+    }
+
+    .close-form-btn{
+        width: 50px;
+        height: 50px;
+
+        position: absolute;
+        top: 30px;
+        right: 30px;
+
+        cursor: pointer;
+    }
+
+    .close-form-btn div{
+        width: 40px;
+        height: 5px;
+
+        background: var(--azulEscuro);
+
+        position: absolute;
+        top: 10px;
+        left: 5px;
+
+        pointer-events: none;
+    }
+
+    .close-form-btn div:first-child{
+        transform: rotate(45deg);
+    }
+
+    .close-form-btn div:last-child{
+        transform: rotate(-45deg);
+    }
 }
 

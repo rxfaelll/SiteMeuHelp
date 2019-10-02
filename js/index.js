@@ -1,6 +1,7 @@
 //Scrolla para os cards de plano
 let planosBtn = document.querySelectorAll(".scroll-down-btn");
 let formBlur = document.querySelector(".js-form-blur");
+let closeFormBtn = document.querySelectorAll(".js-close-form-button");
 
 for (let i = 0; i < planosBtn.length; i++) {
     planosBtn[i].addEventListener("click", event => {
@@ -22,7 +23,12 @@ function openForm(event, button){
     formBlur.classList.add("open-blur");
 }
 
-formBlur.addEventListener("click", closeForm)
+formBlur.addEventListener("click", closeForm);
+
+for (let i = 0; i < closeFormBtn.length; i++) {
+    closeFormBtn[i].addEventListener("click", closeForm);
+    
+}
 
 function closeForm(){
 
