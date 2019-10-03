@@ -40,8 +40,25 @@ function closeForm(){
         document.querySelector(".form-container-3")
     ]
 
+    let knowMore = [
+        document.querySelector(".know-more-container-1"),
+        document.querySelector(".know-more-container-2"),
+        document.querySelector(".know-more-container-3")
+    ]
+
     for (let i = 0; i < forms.length; i++) {
 
-        forms[i].classList.remove("open-form");        
+        forms[i].classList.remove("open-form");  
+        knowMore[i].classList.remove("open-know-more");    
     }
+}
+
+//Abre os pop-ups de Saiba Mais dos Cards
+
+function openKnowMore(event, button){
+
+    event.preventDefault();
+
+    document.querySelector(`.know-more-container-${button}`).classList.add("open-know-more");
+    formBlur.classList.add("open-blur");
 }

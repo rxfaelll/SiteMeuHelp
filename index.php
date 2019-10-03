@@ -80,9 +80,19 @@
                         <br>
                     </div>
                     <div class="card-btn">
-                        <a href="" class="normal-button darkblue-bg">Saiba mais</a>
+                        <a href="" class="normal-button darkblue-bg" onclick="openKnowMore(event, 1)">Saiba mais</a>
                         <a href="" class="normal-button yellow-bg" onclick="openForm(event, 1)">Contrate Já</a>
                     </div>
+                </div>
+                <div class="know-more-container-1">
+                    <h1>Título 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="form-container-1">
                     <div class="js-close-form-button close-form-btn">
@@ -584,9 +594,19 @@
                         <p>R$29,90 adicionais por pessoa na residência</p>
                     </div>
                     <div class="card-btn">
-                        <a href="" class="normal-button darkblue-bg">Saiba mais</a>
+                        <a href="" class="normal-button darkblue-bg" onclick="openKnowMore(event, 2)">Saiba mais</a>
                         <a href="" class="normal-button yellow-bg" onclick="openForm(event, 2)">Contrate Já</a>
                     </div>
+                </div>
+                <div class="know-more-container-2">
+                    <h1>Título 2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="form-container-2">
                     <div class="js-close-form-button close-form-btn">
@@ -1088,9 +1108,19 @@
                         <br>
                     </div>
                     <div class="card-btn">
-                        <a href="" class="normal-button darkblue-bg">Saiba mais</a>
+                        <a href="" class="normal-button darkblue-bg" onclick="openKnowMore(event, 3)">Saiba mais</a>
                         <a href="" class="normal-button yellow-bg" onclick="openForm(event, 3)">Contrate Já</a>
                     </div>
+                </div>
+                <div class="know-more-container-3">
+                    <h1>Título 3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="form-container-3">
                     <div class="js-close-form-button close-form-btn">
@@ -1588,7 +1618,6 @@
                 </div>
                 
                 <div class="js-form-blur"></div>
-
             </div>
 
             <!-- Card Clientes -->

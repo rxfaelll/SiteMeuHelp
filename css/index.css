@@ -332,11 +332,16 @@
 
     /* Forms planos */
 
-    .form-container-1, .form-container-2, .form-container-3{
+    .form-container-1,
+    .form-container-2,
+    .form-container-3,
+    .know-more-container-1,
+    .know-more-container-2,
+    .know-more-container-3{
         display: none;
     }
 
-    .open-form{
+    .open-form, .open-know-more{
         padding: 20px;
         background: white;
         border-radius: 16px;
