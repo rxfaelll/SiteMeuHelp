@@ -96,19 +96,36 @@
 
         /* Forms planos */
 
-        .form-container-1, .form-container-2, .form-container-3{
+        .form-container-1,
+        .form-container-2,
+        .form-container-3,
+        .know-more-container-1,
+        .know-more-container-2,
+        .know-more-container-3{
             display: none;
         }
     
         .open-form{
-            width: 80%;
-            height: 80vh;
-
-            overflow: scroll;
-
             padding: 20px;
             background: white;
-            border-radius: 7px;
+            border-radius: 16px;
+    
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            z-index: 2;
+            transform: translate(-50%, -50%);
+    
+            display: block;
+        }
+
+        .open-know-more{
+            width: 85vw;
+
+            padding: 20px;
+
+            background: white;
+            border-radius: 16px;
     
             position: fixed;
             top: 50%;
