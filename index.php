@@ -1632,7 +1632,7 @@
                         cartão  e consultar toda a Rede Credenciada. 
                         Ligue  e cadastre sua senha.
                     </p>
-                    <p class="telefone">Ligue (11) 4780-0700</p>
+                    <p class="telefone">Ligue 0800-580-0131</p>
                 </div>
 
                 <!-- Card 2 -->
@@ -1651,7 +1651,7 @@
                         ligue para a central de relacionamento e cadastre
                         sua nova senha 
                     </p>
-                    <p class="telefone">Ligue (11) 4780-0700</p>
+                    <p class="telefone">Ligue 0800-580-0131</p>
                 </div>
             </div>
         </div>
