@@ -7,7 +7,7 @@ function getFooter(){
                     </span>
                 </div>
                 <div class="container-links-footer">
-                    <a href="">Termos e condições</a>
+                    <a href="termos-e-condicoes">Termos e condições</a>
                     <a href="">Políticas de privacidade</a>
                     <a href="" class="footer-form-btn">Seja representante comercial</a>
                     <a href="">Encontre os parceiros mais próximos</a>

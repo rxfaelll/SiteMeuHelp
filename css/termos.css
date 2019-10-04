@@ -1,0 +1,50 @@
+@media screen and (min-width: 769px){
+    .header-bg{
+        width: 100%;
+        height: auto;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .mob-bg{
+        display: none;
+    }
+    
+    main{
+        margin-top: 8em;
+    
+        padding: 0 6em 0 6em;
+    }
+    
+    main h1{
+        color: var(--azulClaro);
+        margin-bottom: 1em;
+    }
+
+    table{        
+        border-collapse: collapse;
+    }
+
+    tbody > tr:nth-child(2n){
+        background: rgba(0, 171, 187, 0.1);
+    }
+
+    td{
+        border: 2px solid black;
+        
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    strong{
+        font-size: 1.5em;
+        color: var(--azulClaro);
+    }
+
+    p{
+        line-height: 1.6em;
+    }
+}
