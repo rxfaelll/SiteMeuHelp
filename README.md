@@ -17,7 +17,7 @@ Site do MeuHelp
 
 * [x] Inserir formulário de contato
 
-* [ ] Inserir encaminhamento pro WhatsApp na footer fixed bar
+* [x] Inserir encaminhamento pro WhatsApp na footer fixed bar
   
 ## To do list desktop
 
